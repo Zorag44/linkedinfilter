@@ -1,0 +1,25 @@
+{
+    "name":"LinFil",
+    "description":"filter",
+    "version":"1.0",
+    "manifest_version":3,
+    "permissions":[
+        "scripting",
+        "activeTab",
+        "storage"
+    ],
+    "action":{
+        "default_popup":"popup.html"
+    },
+    "content_scripts": [
+        {
+        
+        "matches": ["https://www.linkedin.com/*"],
+
+        "css": [],
+        
+        "js": ["one.js"]
+        
+        }
+    ]
+}
